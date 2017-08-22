@@ -536,7 +536,16 @@ tr > td:nth-child(2) {
     border-width: 2px;
 }
 
-
+.nn {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+.export {
+        display: block;
+    margin: auto;
+    width: 100%;
+}
 
 /* Testimonials */
 
