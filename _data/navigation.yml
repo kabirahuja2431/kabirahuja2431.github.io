@@ -1,0 +1,21 @@
+# main links
+main:
+  - title: "About"
+    url: "/about/"
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+
+  - title: "CV"
+    url: "/cv/"
+
+  - title: "Tutorials"
+    url: "/tutorials/"
+
+  - title: "Movie and TV Reviews"
+    url: "/reviews/"
