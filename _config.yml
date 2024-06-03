@@ -1,0 +1,40 @@
+title: Kabir Ahuja
+url: "https://kabirahuja2431@github.io"
+baseurl: ""
+author_name: "Kabir Ahuja"
+
+markdown: kramdown
+ins_logo: "/uw.png"
+
+tracking_id: #
+
+footer: yes
+footer_theme_cred_url: "https://github.com/ankitsultana"
+footer_theme_cred_text: "Theme by Ankit Sultana."
+footer_ill_cred_url: "https://www.annavignet.com/"
+footer_ill_cred_text": "Yi Yi illustration at the bottom right by Anna Vignet."
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+collections:
+  publications:
+    output: false
+    permalink: :collection/:name
+  reviews:
+    output: true
+    permalink: :collection/:name
+
+nav:
+ - name: "About"
+   link: "/"
+ - name: "Publications"
+   link: "/publications.html"
+ - name: "Resume"
+   link: "/resume.pdf"
+ - name: "Miscellaneous"
+   link: "/misc"
+#  - name: "Contact"
+#    link: "/contact"
+

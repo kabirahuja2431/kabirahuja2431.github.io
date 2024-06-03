@@ -1,0 +1,116 @@
+---
+layout: default
+title: Publications
+venue_emojis:
+  Conference: "🏠"
+  Journal: "📔"
+  Workshop: "👓"
+---
+
+<style>
+
+h3 {
+  margin-top: 20px; /* Adjust as needed */
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+h2 {
+  margin-top: 20px; /* Adjust as needed */
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+</style>
+
+{% assign venue_emojis = {
+  "Conference": "🏠",
+  "Journal": "📔",
+  "Workshop": "👓"
+} %}
+
+<h2 class="mt-4">Publications</h2>
+*Indicates equal contribution
+
+  <h3>Preprints</h3>
+  {% assign preprints = site.publications | where: "type", "preprint" | sort: "date" | reverse  %}
+  {% if preprints.size > 0 %}
+    {% for pub in preprints %}
+      <div class="publication">
+        <h4><a href="{{ pub.url }}">{{ pub.title }}</a></h4>
+        <p>
+          {% assign authors = pub.authors | split: ", " %}
+          {% for author in authors %}
+            {% assign author_clean = author | remove: "*" %}
+            {% if author_clean == site.author_name %}
+              <u>{{ author }}</u>{% if forloop.last == false %}, {% endif %}            {% else %}
+              {{ author }}{% if forloop.last == false %}, {% endif %}
+            {% endif %}
+          {% endfor %}
+        </p>
+        <p>Preprint ({{ pub.year }})</p>
+        <p>
+        {% if pub.abs %}
+          <a class="btn btn-outline-primary" href="{{ pub.abs }}" target="_blank">ABS</a>
+        {% endif %}
+        {% if pub.pdf %}
+          <a class="btn btn-outline-primary" href="{{ pub.pdf }}" target="_blank">PDF</a>
+        {% endif %}
+        {% if pub.code %}
+          <a class="btn btn-outline-primary" href="{{ pub.code }}" target="_blank">Code</a>
+        {% endif %}
+        {% if pub.demo %}
+          <a class="btn btn-outline-primary" href="{{ pub.demo }}" target="_blank">Demo</a>
+        {% endif %}
+      </p>
+
+      </div>
+    {% endfor %}
+  {% else %}
+    <p>No preprints available.</p>
+  {% endif %}
+
+  <h3>Published Papers</h3>
+  Legend: 🏠 = Conference, 📔 = Journal, 👓 = Workshop
+  <br></br>
+{% assign published_papers = site.publications | where: "type", "published" | sort: "date" | reverse %}
+{% if published_papers.size > 0 %}
+    {% for pub in published_papers %}
+      <div class="publication">
+        <h4><a href="{{ pub.url }}">{{ pub.title }}</a></h4>
+        <p>
+          {% assign authors = pub.authors | split: ", " %}
+          {% for author in authors %}
+            {% assign author_clean = author | remove: "*" %}
+            {% if author_clean == site.author_name %}
+              <u>{{ author }}</u>{% if forloop.last == false %}, {% endif %}            {% else %}
+              {{ author }}{% if forloop.last == false %}, {% endif %}
+            {% endif %}
+          {% endfor %}
+        </p>
+        <p>{{ page.venue_emojis[pub.venue_type] }} {{ pub.venue }}</p>
+
+        <p>
+        {% if pub.award %}
+         <strong> 🏆 {{ pub.award }} </strong>
+        {% endif %}
+        </p>
+
+        <p>
+        {% if pub.abs %}
+          <a class="btn btn-outline-primary" href="{{ pub.abs }}" target="_blank">ABS</a>
+        {% endif %}
+        {% if pub.pdf %}
+          <a class="btn btn-outline-primary" href="{{ pub.pdf }}" target="_blank">PDF</a>
+        {% endif %}
+        {% if pub.code %}
+          <a class="btn btn-outline-primary" href="{{ pub.code }}" target="_blank">Code</a>
+        {% endif %}
+        {% if pub.demo %}
+          <a class="btn btn-outline-primary" href="{{ pub.demo }}" target="_blank">Demo</a>
+        {% endif %}
+      </p>
+      </div>
+    {% endfor %}
+  {% else %}
+    <p>No published papers available.</p>
+  {% endif %}
+</div>

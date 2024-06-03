@@ -1,0 +1,60 @@
+.publications {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+.publication {
+  margin-bottom: 20px;
+  padding: 0;
+  border: none;
+}
+
+.publication h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 0.9 em;
+}
+
+
+.publication p {
+  margin: 2px;
+  font-size: 0.9em;
+}
+
+.publication a {
+  text-decoration: none;
+  color: $accent;
+}
+
+.publication a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  display: inline-block;
+  margin: 2px 2px 2px 0;
+  padding: 2px 8px;
+  font-size: 0.7em;
+  color: #007acc;
+  text-decoration: none;
+  border: 1px solid #007acc;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background-color: #007acc;
+  color: #fff;
+}
+
+.btn-outline-primary {
+  color: #007acc;
+  border-color: #007acc;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007acc;
+  color: #fff;
+}
