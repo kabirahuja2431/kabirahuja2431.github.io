@@ -2,6 +2,8 @@
 layout: default
 
 news:
+  - date: "2024-07-23"
+    title: "Attending ICML 2024 at Vienna for the spotlight presentation our work on hierarchical generalization at the Mechanistic Interpretability Workshop."
   - date: "2024-04-25"
     title: "Preprint for our work on hierarchical generalization out!"
     description: "Check the paper [here](https://arxiv.org/abs/2404.16367)."
