@@ -35,7 +35,7 @@ h2 {
   {% if preprints.size > 0 %}
     {% for pub in preprints %}
       <div class="publication">
-        <h4><a href="{{ pub.url }}">{{ pub.title }}</a></h4>
+        <h4><a href="{{ pub.abs }}">{{ pub.title }}</a></h4>
         <p>
           {% assign authors = pub.authors | split: ", " %}
           {% for author in authors %}
@@ -75,7 +75,7 @@ h2 {
 {% if published_papers.size > 0 %}
     {% for pub in published_papers %}
       <div class="publication">
-        <h4><a href="{{ pub.url }}">{{ pub.title }}</a></h4>
+        <h4><a href="{{ pub.abs }}">{{ pub.title }}</a></h4>
         <p>
           {% assign authors = pub.authors | split: ", " %}
           {% for author in authors %}

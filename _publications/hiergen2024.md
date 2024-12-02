@@ -1,7 +1,9 @@
 ---
 layout: default
-title: "Learning Syntax Without Planting Trees: Understanding When and Why Transformers Generalize Hierarchically"
+title: "Learning Syntax Without Planting Trees: Understanding Hierarchical Generalization in Transformers"
 authors: Kabir Ahuja, Vidhisha Balachandran, Madhur Panwar, Tianxing He, Noah A. Smith, Navin Goyal, Yulia Tsvetkov
+# venue: TACL (2024)
+# venue_type: "Journal"
 year: 2024
 month: 4
 date: 04-01-2024
