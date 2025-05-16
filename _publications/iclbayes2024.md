@@ -4,9 +4,9 @@ title: "In-Context Learning through the Bayesian Prism"
 authors: Madhur Panwar*, Kabir Ahuja*, Navin Goyal
 venue: ICLR (2024)
 venue_type: Conference
-year: 2024
-month: 5
-date: 05-01-2024
+year: 2023
+month: 6
+date: 2023-06-05
 url: https://arxiv.org/abs/2306.04891
 type: published
 abs: https://arxiv.org/abs/2306.04891

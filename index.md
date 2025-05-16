@@ -2,11 +2,20 @@
 layout: default
 
 news:
+  - date: "2025-05-15"
+    title: "Will be joining Google DeepMind as a Student Researcher for the summer of 2025!"
+  - date: "2025-04-29"
+    title: "Passed my PhD qualifying exam!"
+  - date: "2025-04-28"
+    title: "Presenting our TACL paper on hierarchical generalization at NAACL 2025 in Albuquerque!"
+  - date: "2025-04-16"
+    title: "Our work on plot hole detection is now out on arxiv"
+    description: "Preprint [here](https://arxiv.org/abs/2504.11900)."
   - date: "2024-12-02"
     title: "Our work on hierarchical generalization is now accepted in TACL"
     description: "Preprint [here](https://arxiv.org/abs/2404.16367)."
   - date: "2024-07-23"
-    title: "Attending ICML 2024 at Vienna for the spotlight presentation our work on hierarchical generalization at the Mechanistic Interpretability Workshop."
+    title: "Attending ICML 2024 at Vienna for the ⭐️ spotlight presentation of our work on hierarchical generalization at the Mechanistic Interpretability Workshop."
   - date: "2024-04-25"
     title: "Preprint for our work on hierarchical generalization out!"
     description: "Check the paper [here](https://arxiv.org/abs/2404.16367)."
@@ -27,6 +36,8 @@ Hi! I am Kabir, a PhD student at Paul G. Allen School of Computer Science, Unive
 ## Research Interests
 
 I am broadly interested in Natural Language Processing (NLP), mainly towards understanding and improving the capabilities of language models. Some specific areas that I am currently working on or have looked at in the past include:
+
+**🍩 Narrative Understanding and Reasoning**: Can LLMs exhibit deeper narrative comprehension and reasoning capabilities? Our [recent work](https://arxiv.org/abs/2504.11900) studies plot hole detection or finding inconsistencies in stories as a proxy for these capabilities.
 
 **🔭 Science of Language Models.** I am fascinated towards gaining an in-depth understanding of how language models work, their capabilities, and limitations. Some of my work in this space has included studying inductive biases that influence hierarchical generalization in transformers ([TACL](https://arxiv.org/abs/2404.16367)), understanding in-context learning through a Bayesian perspective ([ICLR 2024](https://arxiv.org/abs/2306.04891)), and analyzing capabilities and limitations of transformers and RNNs by studying them on Formal languages ([EMNLP 2020](https://aclanthology.org/2020.emnlp-main.576/), [COLING 2020](https://arxiv.org/abs/2011.03965)).
 

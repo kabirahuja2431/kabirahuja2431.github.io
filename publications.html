@@ -57,6 +57,9 @@ h2 {
         {% if pub.code %}
           <a class="btn btn-outline-primary" href="{{ pub.code }}" target="_blank">Code</a>
         {% endif %}
+        {% if pub.data %}
+          <a class="btn btn-outline-primary" href="{{ pub.data }}" target="_blank">Data</a>
+        {% endif %}
         {% if pub.demo %}
           <a class="btn btn-outline-primary" href="{{ pub.demo }}" target="_blank">Demo</a>
         {% endif %}
