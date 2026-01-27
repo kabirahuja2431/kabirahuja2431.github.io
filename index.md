@@ -2,6 +2,11 @@
 layout: default
 
 news:
+  - date: "2025-11-29"
+    title: "Our work on understanding the impact of AI on popular art is now out on SSRN!"
+    description: "Preprint [here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5830782)."
+  - date: "2025-07-07"
+    title: "Flawed Fictions paper accepted at COLM 2025. See you in Montreal!"
   - date: "2025-05-15"
     title: "Will be joining Google DeepMind as a Student Researcher for the summer of 2025!"
   - date: "2025-04-29"
@@ -24,10 +29,9 @@ news:
     description: "Check the paper [here](https://arxiv.org/abs/2306.04891)."
   - date: "2023-09-26"
     title: "Started my PhD in Computer Science at University of Washington 🌸."
-
 ---
 
-<img class="profile-picture" src="profile_pic_opt2.png">
+<img class="profile-picture" src="profile_pic_v3.JPG">
 
 Hi! I am Kabir, a PhD student at Paul G. Allen School of Computer Science, University of Washington (UW), where I am fortunate to be advised by <a href="https://homes.cs.washington.edu/~yuliats/">Prof. Yulia Tsvetkov</a>. Before joining UW, I spent two wonderful years at Microsoft Research India as a Pre-doctoral Research Fellow, where I worked with <a href="https://www.microsoft.com/en-us/research/people/susitara/"> Dr. Sunayana Sitaram</a>, <a href="https://www.microsoft.com/en-us/research/people/monojitc/"> Dr. Monojit Choudhury</a>, and <a href="https://www.microsoft.com/en-us/research/people/navingo/"> Dr. Navin Goyal</a>. For what feels like eons ago now, I did my undergraduate studies at BITS Pilani, India, where I graduated with a B.E (hons.) in Chemical Engineering (story 🍿 for some other day).
 
@@ -37,7 +41,8 @@ Hi! I am Kabir, a PhD student at Paul G. Allen School of Computer Science, Unive
 
 I am broadly interested in Natural Language Processing (NLP), mainly towards understanding and improving the capabilities of language models. Some specific areas that I am currently working on or have looked at in the past include:
 
-**🍩 Narrative Understanding and Reasoning**: Can LLMs exhibit deeper narrative comprehension and reasoning capabilities? Our [recent work](https://arxiv.org/abs/2504.11900) studies plot hole detection or finding inconsistencies in stories as a proxy for these capabilities.
+**🎭 Storytelling and AI**: I am interested in unpacking capabilities and limitations of language models as both storytellers as well as towards deeper narrative understanding and reasoning. Our [COLM 2025 paper](https://arxiv.org/abs/2504.11900) studies plot hole detection or finding inconsistencies in stories as a proxy for these capabilities. I also recently wrote a perspective piece on the impact AI could have on popular art through a economic and media theory perspective ([SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5830782)).
+
 
 **🔭 Science of Language Models.** I am fascinated towards gaining an in-depth understanding of how language models work, their capabilities, and limitations. Some of my work in this space has included studying inductive biases that influence hierarchical generalization in transformers ([TACL](https://arxiv.org/abs/2404.16367)), understanding in-context learning through a Bayesian perspective ([ICLR 2024](https://arxiv.org/abs/2306.04891)), and analyzing capabilities and limitations of transformers and RNNs by studying them on Formal languages ([EMNLP 2020](https://aclanthology.org/2020.emnlp-main.576/), [COLING 2020](https://arxiv.org/abs/2011.03965)).
 
@@ -58,7 +63,8 @@ For a full list of my publications you can have a look [here](/publications.html
 
 ## Teaching
 **Courses**
-- TA for [CSE 447/ 547 M: Natural Language Processing at UW](https://msclar.github.io/cse447-au24/) taught by Prof. Yulia Tsvetkov in Autumn 2024.
+- Course Staff for [CSE 599J: The New AI Story at UW](https://courses.cs.washington.edu/courses/cse599j/26wi//) along with Deniz Nazar and Prof. Yulia Tsvetkov in Winter 2026.
+- TA for [CSE 447/ 547 M: Natural Language Processing at UW](https://msclar.github.io/cse447-au24/) taught by Prof. Yulia Tsvetkov in Autumn 2024 and Autumn 2025.
 - TA'd for the Natural Language Processing class by Dr. Monojit Choudhury at Plaksha University for their [Tech Leaders Fellowship (TLF)](https://plaksha.edu.in/pg/tech-leaders-fellowship/) program in 2022 and 2023. Assignments and labs are available [here](https://github.com/kabirahuja2431/PlakshaNLP2023/tree/main).
 
 **Talks and Tutorials**
