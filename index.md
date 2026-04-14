@@ -2,6 +2,9 @@
 layout: default
 
 news:
+  - date: "2026-04-14"
+    title: "The work I did during my Student Researcher stint at Google DeepMind on investigating LLMs' capabilities for communicating with subtext is now out on arxiv!"
+    description: "Preprint [here](https://arxiv.org/abs/2604.05273)."
   - date: "2025-11-29"
     title: "Our work on understanding the impact of AI on popular art is now out on SSRN!"
     description: "Preprint [here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5830782)."
