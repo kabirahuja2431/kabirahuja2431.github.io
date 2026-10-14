@@ -7,7 +7,7 @@ news:
     description: "Preprint [here](https://arxiv.org/abs/2604.05273)."
   - date: "2025-11-29"
     title: "Our work on understanding the impact of AI on popular art is now out on SSRN!"
-    description: "Preprint [here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5830782)."
+    description: "Preprint [here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7590703)."
   - date: "2025-07-07"
     title: "Flawed Fictions paper accepted at COLM 2025. See you in Montreal!"
   - date: "2025-05-15"
@@ -44,7 +44,7 @@ Hi! I am Kabir, a PhD student at Paul G. Allen School of Computer Science, Unive
 
 I am broadly interested in Natural Language Processing (NLP), mainly towards understanding and improving the capabilities of language models. Some specific areas that I am currently working on or have looked at in the past include:
 
-**🎭 Storytelling and AI**: I am interested in unpacking capabilities and limitations of language models as both storytellers as well as towards deeper narrative understanding and reasoning. Our [COLM 2025 paper](https://arxiv.org/abs/2504.11900) studies plot hole detection or finding inconsistencies in stories as a proxy for these capabilities. I also recently wrote a perspective piece on the impact AI could have on popular art through a economic and media theory perspective ([SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5830782)).
+**🎭 Storytelling and AI**: I am interested in unpacking capabilities and limitations of language models as both storytellers as well as towards deeper narrative understanding and reasoning. Our [COLM 2025 paper](https://arxiv.org/abs/2504.11900) studies plot hole detection or finding inconsistencies in stories as a proxy for these capabilities. I also recently wrote a perspective piece on the impact AI could have on popular art through a economic and media theory perspective ([SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7590703)).
 
 
 **🔭 Science of Language Models.** I am fascinated towards gaining an in-depth understanding of how language models work, their capabilities, and limitations. Some of my work in this space has included studying inductive biases that influence hierarchical generalization in transformers ([TACL](https://arxiv.org/abs/2404.16367)), understanding in-context learning through a Bayesian perspective ([ICLR 2024](https://arxiv.org/abs/2306.04891)), and analyzing capabilities and limitations of transformers and RNNs by studying them on Formal languages ([EMNLP 2020](https://aclanthology.org/2020.emnlp-main.576/), [COLING 2020](https://arxiv.org/abs/2011.03965)).
